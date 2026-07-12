@@ -216,3 +216,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ------------------------------------------------------------------
+# Project-specific
+# ------------------------------------------------------------------
+
+# Dataset (downloaded manually, see README) — not committed to keep
+# the repo lightweight and avoid redistributing Kaggle's dataset
+data/
+*.csv
