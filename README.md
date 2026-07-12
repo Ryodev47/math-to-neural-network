@@ -123,6 +123,12 @@ This project was built to deeply understand:
 - Why gradients are averaged over batch size for stable training
 - How softmax + one-hot encoding work together for multi-class classification
 
+### Reproducibility (random seed)
+
+The notebook sets a fixed random seed (`np.random.seed(4)`) before splitting the data and initializing the network's weights and biases. Both the train/test split and the weight initialization rely on NumPy's random number generator, which is normally non-deterministic (different every run).
+
+By fixing the seed, the same sequence of "random" numbers is generated every time the notebook runs — so the train/test split stays the same, the initial weights stay the same, and as a result, **training and test accuracy stay consistent across runs** instead of fluctuating each time due to a different random initialization or data split. This makes it easier to debug the model and to report accuracy numbers that others can actually reproduce.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
