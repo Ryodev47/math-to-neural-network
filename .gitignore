@@ -222,6 +222,9 @@ __marimo__/
 # ------------------------------------------------------------------
 
 # Dataset (downloaded manually, see README) — not committed to keep
-# the repo lightweight and avoid redistributing Kaggle's dataset
-data/
+# the repo lightweight and avoid redistributing Kaggle's dataset.
+# Everything inside data/ is ignored EXCEPT the placeholder file
+# below, so the folder itself still shows up when cloned.
+data/*
+!data/DATASET.md
 *.csv
