@@ -66,6 +66,7 @@ The dataset is **not included** in this repository (to keep it lightweight). To 
 - numpy
 - pandas
 - matplotlib
+- jupyterlab
 
 Install all dependencies with:
 
