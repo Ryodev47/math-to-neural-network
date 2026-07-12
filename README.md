@@ -95,11 +95,37 @@ pip install -r requirements.txt
 
 The network is trained for 600 epochs with a learning rate (`alpha`) of 0.1. Training progress (accuracy every 50 epochs) is printed during training, and final train/test accuracy is reported at the end of the notebook.
 
+Accuracy per training epochs:
+> Epoch: 0 to 50
+> Accuracy: 0.1224
+> Epoch: 50 to 100
+> Accuracy: 0.5463
+> Epoch: 100 to 150
+> Accuracy: 0.6891
+> Epoch: 150 to 200
+> Accuracy: 0.7678
+> Epoch: 200 to 250
+> Accuracy: 0.8067
+> Epoch: 250 to 300
+> Accuracy: 0.8275
+> Epoch: 300 to 350
+> Accuracy: 0.8411
+> Epoch: 350 to 400
+> Accuracy: 0.8509
+> Epoch: 400 to 450
+> Accuracy: 0.8594
+> Epoch: 450 to 500
+> Accuracy: 0.8665
+> Epoch: 500 to 550
+> Accuracy: 0.8719
+> Epoch: 550 to 600
+> Accuracy: 0.8770
+
 A helper function `testPrediction()` lets you visualize a single test image alongside the model's predicted digit vs. the actual label.
 
-> Update this section with your actual final accuracy numbers once you've run the notebook, e.g.:
-> - Training Accuracy: `XX.XX%`
-> - Test Accuracy: `XX.XX%`
+Final Accuracy:
+- Train Accuracy: `0.8819`
+- Test Accuracy: `0.8780`
 
 ## Repository Structure
 
